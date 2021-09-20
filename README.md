@@ -1,6 +1,6 @@
 # terraform-aws-public-route53-zone
 
-[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.12.0,<0.13.0-blue.svg)](https://releases.hashicorp.com/terraform/)
+[![Terraform Version](https://img.shields.io/badge/Terraform%20Version->=0.13.0,<=0.13.7-blue.svg)](https://releases.hashicorp.com/terraform/)
 [![Release](https://img.shields.io/github/release/traveloka/terraform-aws-public-route53-zone.svg)](https://github.com/traveloka/terraform-aws-public-route53-zone/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/traveloka/terraform-aws-public-route53-zone.svg)](https://github.com/traveloka/terraform-aws-public-route53-zone/commits/master)
 [![Issues](https://img.shields.io/github/issues/traveloka/terraform-aws-public-route53-zone.svg)](https://github.com/traveloka/terraform-aws-public-route53-zone/issues)
@@ -40,13 +40,14 @@ Doesn't have any dependencies to any other Terraform module
 ## Terraform Version
 
 This module was created using Terraform `0.11.14`
-The latest stable version of Terraform which this module tested working is Terraform `0.12.31` on 2021/09/17
+The latest stable version of Terraform which this module tested working is Terraform `0.13.7` on 2021/09/20
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
 
 ## Providers
 
@@ -80,7 +81,6 @@ No modules.
 |------|-------------|
 | <a name="output_name_servers"></a> [name\_servers](#output\_name\_servers) | A list of name servers in associated (or default) delegation set |
 | <a name="output_zone_id"></a> [zone\_id](#output\_zone\_id) | The hosted zone id |
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Contributing
